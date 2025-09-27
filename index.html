@@ -3,136 +3,57 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Pranav Bhawane - Portfolio</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(to right, #1e3c72, #2a5298);
-      color: #f4f4f4;
-    }
-
-    header {
-      background-color: rgba(0, 0, 0, 0.3);
-      padding: 1em;
-      text-align: center;
-    }
-
-    nav a {
-      margin: 0 1em;
-      color: #f4f4f4;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    .container {
-      max-width: 900px;
-      margin: auto;
-      padding: 2em;
-    }
-
-    h1 {
-      font-size: 2.5em;
-      margin-bottom: 0.2em;
-    }
-
-    .tagline {
-      font-size: 1.2em;
-      margin-bottom: 2em;
-      color: #dcdcdc;
-    }
-
-    .section {
-      margin-bottom: 3em;
-    }
-
-    .project-card {
-      background-color: rgba(255, 255, 255, 0.1);
-      padding: 1em;
-      border-radius: 8px;
-      margin-bottom: 1em;
-    }
-
-    .project-card a {
-      color: #ffd700;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    .skills {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1em;
-    }
-
-    .skill {
-      background-color: #ffffff22;
-      padding: 0.5em 1em;
-      border-radius: 20px;
-      font-weight: bold;
-    }
-
-    footer {
-      text-align: center;
-      padding: 2em;
-      font-size: 0.9em;
-      color: #ccc;
-    }
-
-    @media (max-width: 600px) {
-      .skills {
-        flex-direction: column;
-      }
-    }
-  </style>
+  <title>Pranav Bhawane - Data Engineer</title>
+  <link rel="stylesheet" href="css.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
+    <img src="pranav.JPEG" alt="Pranav Bhawane" class="profile-pic" />
+    <h1>Pranav Bhawane</h1>
+    <p class="tagline">Data Engineer</p>
+    <h2 class="subtagline">Data's Favorite Engineer</h2>
     <nav>
-      <a href="#about">About</a>
       <a href="#projects">Projects</a>
       <a href="#skills">Skills</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
 
-  <div class="container">
-    <section id="about" class="section">
-      <h1>Pranav Bhawane</h1>
-      <p class="tagline">I build scalable data platforms and dashboards that drive decisions.</p>
-    </section>
+  <section id="projects">
+    <h2>Featured Projects</h2>
+    <div class="project">
+      <h3><a href="https://github.com/Pranavbhawane7/Airbnb_data_analysis" target="_blank">Airbnb Data Analysis</a></h3>
+      <p>Streamlit app for visualizing data using Python, Pandas, and visualization libraries.</p>
+    </div>
+    <div class="project">
+      <h3><a href="https://github.com/Pranavbhawane7/Youtube_data_warehousing_and_harvesting" target="_blank">YouTube Data Warehousing and Harvesting</a></h3>
+      <p>Streamlit app for YouTube channel analysis using Python, MongoDB, and SQL warehouse.</p>
+    </div>
+  </section>
 
-    <section id="projects" class="section">
-      <h2>Featured Projects</h2>
-      <div class="project-card">
-        <a href="https://github.com/Pranavbhawane7/Youtube_data_warehousing_and_harvesting" target="_blank">YouTube Data Warehousing and Harvesting</a>
-        <p>Job board web app built with HTML, CSS, and backend logic.</p>
-      </div>
-      <div class="project-card">
-        <a href="https://github.com/Pranavbhawane7/Airbnb_data_analysis" target="_blank">Airbnb Data Analysis</a>
-        <p>Exploratory data analysis using Python, Pandas, and visualization libraries.</p>
-      </div>
-    </section>
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <span>Python</span>
+      <span>SQL</span>
+      <span>Apache Spark</span>
+      <span>Airflow</span>
+      <span>AWS</span>
+      <span>Power BI</span>
+      <span>MongoDB</span>
+      <span>Streamlit</span>
+    </div>
+  </section>
 
-    <section id="skills" class="section">
-      <h2>Skills</h2>
-      <div class="skills">
-        <div class="skill">Python</div>
-        <div class="skill">SQL</div>
-        <div class="skill">PySpark</div>
-        <div class="skill">Airflow</div>
-        <div class="skill">AWS</div>
-        <div class="skill">Power BI</div>
-        <div class="skill">MongoDB</div>
-      </div>
-    </section>
-
-    <section id="contact" class="section">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:bhawanepranav77@gmail.com" style="color:#ffd700;">bhawanepranav77@gmail.com</a></p>
-      <p><a href="https://github.com/Pranavbhawane7" target="_blank" style="color:#ffd700;">GitHub Profile</a></p>
-    </section>
-  </div>
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:pranavbhawane77@gmail.com">pranavbhawane77@gmail.com</a></p>
+    <p>Phone: <a href="tel:+918888752549">+91 88887 52549</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/pranavbhawane/" target="_blank">linkedin.com/in/pranav-bhawane</a></p>
+    <p>GitHub: <a href="https://github.com/pranavbhawane7" target="_blank">github.com/pranavbhawane7</a></p>
+    <p>Location: Pune, Maharashtra, India</p>
+  </section>
 
   <footer>
     &copy; 2025 Pranav Bhawane. All rights reserved.
